@@ -1,4 +1,5 @@
 import './App.css';
+import Button from './components/Button';
 import Greet from './components/Greet';
 import Heading from './components/Heading';
 import Ocar from './components/Ocar';
@@ -19,6 +20,8 @@ function App() {
       <Ocar>
         <Heading>React Children </Heading>
       </Ocar>
+
+      <Button handleClick={() => console.log('Clicked')} />
     </div>
   );
 }
