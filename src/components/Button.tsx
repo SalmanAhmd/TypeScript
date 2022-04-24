@@ -1,6 +1,6 @@
 // events
 type Props = {
-  handleClick: () => void
+  handleClick: (event: React.MouseEvent<HTMLButtonElement>) => void
 }
 
 export default function Button({ handleClick }: Props) {

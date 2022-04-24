@@ -21,7 +21,7 @@ function App() {
         <Heading>React Children </Heading>
       </Ocar>
 
-      <Button handleClick={() => console.log('Clicked')} />
+      <Button handleClick={(e) => console.log('Clicked',e)} />
     </div>
   );
 }
